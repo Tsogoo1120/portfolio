@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>NB Develop </title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="/assets/img/logo.png">
+		<link rel="stylesheet" href="/assets/scripts/vendors/fonts/fontawesome/font-awesome.min.css">
+		<link rel="stylesheet" href="/assets/fonts/iconsmind/iconsmind.css">
+		<link rel="stylesheet" href="assets/css/plugins.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	</head>
+
+	<body>
+		<div class="vlt-site-holder animsition vlt-footer-fixed">
+			<div class="vlt-content-holder">
+				<header class="vlt-header-holder vlt-header-fixed" data-header-fixed="1">
+					<div class="container">
+						<div class="vlt-header-inner">
+							<div class="vlt-header-left">
+								<a href="index.html" class="vlt-site-logo">
+								<img src="/assets/img/logo.png" alt="Vinero" style="max-height: 140px ">
+								</a>
+							</div>
+							<div class="vlt-header-right">
+								<div class="vlt-menu-toggle vlt-fullscreen-menu-toggle" data-before-text="Menu">
+									<span class="line line-one"><span class="inner"></span></span>
+									<span class="line line-two"><span class="inner"></span></span>
+									<span class="line line-three"><span class="inner"></span></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+                <div class="vlt-navigation-fullscreen-holder">
+					<div class="vlt-navigation-fullscreen">
+
+						<ul>
+
+								<li><a href="/about.us.html" class="no-anims">About Us</a></li>   
+
+							<li><a href="contact.html">Contact</a></li>
+
+              <li><a href="works.html">Works</a></li>
+
+                            
+						<div class="vlt-navigation-socials">
+							<ul>
+								<li><a href="https://github.com/" class="tooltip" title="github"><i class="fa fa-github-square"></i></a></li>
+								<li><a href="https://www.instagram.com/tsogoo_1120/?fbclid=IwAR0E_1q45zRl0hXNe5g0fRluxQRG9CLMqXe4AWAwRwhkX5sB23xrAkolQow" class="tooltip" title="instagram"><i class="fa fa-instagram"></i></a></li>
+								<li><a href="https://www.facebook.com/profile.php?id=100082869717221" class="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+
+        <div
+          class="vlt-hero-title-holder jarallax"
+          style="background-image: url('assets/img/bady-abbas-hxi_yRxODNc-unsplash.jpg')"
+        >
+          <div class="vlt-hero-title-inner">
+            <h1 class="vlt-hero-title">We are Nb Develop</h1>
+            <p class="vlt-hero-subtitle">Teambased freelancers</p>
+          </div>
+        </div> 
+
+        
+      </div>
+
+
+
+      
+
+
+
+      
+
+      <!-- /.vlt-content-holder -->
+      <footer class="vlt-footer-holder vlt-footer-minimal" data-footer-fixed="1">
+        <div class="vlt-footer-inner">
+            <div class="container">
+                <div class="text-center">
+
+                    <div class="vlt-footer-menu">
+                        <div>
+                            <ul>
+                           
+                                <li>
+                                    <a href="/about.us.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="/contact.html">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="#">Works</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="vlt-footer-copyright">
+                        <p>Copyright © 2023 NB Develop. Powered by <a href="#" class="vlt-link reverse">Gereltsetseg Altantsog</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+      <!-- /.vlt-footer-holder -->
+    </div>
+    <!-- /.vlt-site-holder -->
+    <a href="#" class="vlt-back-to-top hidden"
+      ><i class="fa fa-angle-up"></i
+    ></a>
+    <!-- /.vlt-back-to-top -->
+  </body>
+  <!-- SCRIPTS -->
+  <script src="/assets/scripts/vendors/jquery.min.js"></script>
+  <script src="assets/scripts/plugins.min.js"></script>
+  <script type="text/javascript">
+    jQuery.noConflict()(function ($) {
+      var gridContainer = $("#cubeportfolio");
+      gridContainer.imagesLoaded(function () {
+        gridContainer.cubeportfolio({
+          defaultFilter: "*",
+          filters: ".vlt-portfolio-grid-filters",
+          animationType: "fadeOut",
+          layoutMode: "grid", //mosaic
+          sortToPreventGaps: true,
+          gapHorizontal: 30,
+          gapVertical: 30,
+          gridAdjustment: "responsive",
+          mediaQueries: [
+            {
+              width: 1170,
+              cols: 3,
+            },
+            {
+              width: 991,
+              cols: 3,
+            },
+            {
+              width: 767,
+              cols: 2,
+            },
+            {
+              width: 575,
+              cols: 1,
+            },
+          ],
+          displayType: "default",
+          displayTypeSpeed: 150,
+        });
+      });
+    });
+  </script>
+  <script src="https://kit.fontawesome.com/28a9813c26.js" crossorigin="anonymous"></script>
+  <script src="assets/scripts/script.js"></script>
+</html>

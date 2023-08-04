@@ -1,0 +1,8 @@
+/* Add this CSS to your existing styles */
+#terminal {
+    height: 300px; /* Set your desired fixed height */
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+  }
+
+  
